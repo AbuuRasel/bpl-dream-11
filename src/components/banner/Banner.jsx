@@ -4,7 +4,7 @@ import bannerBg from '../../assets/bg-shadow.png'
 
 const Banner = () => {
   return (
-    <div className='hero w-11/12 mx-auto rounded-4xl overflow-hidden bg-gray-900'>
+    <div className='hero  container mx-auto rounded-4xl overflow-hidden bg-gray-900'>
       <img className='w-full h-full object-cover' src={bannerBg} alt="" />
       <div className='hero-image text-white text-center'>
         <img className='mx-auto mb-4' src={bannerImg} alt="" />
